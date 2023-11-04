@@ -48,7 +48,7 @@ def test_bubble_sort_equalzero():
 
 def test_bubble_sort_noninterger():
     result = []
-    input_arr = [64.5, 34, 25, 12.8, 'm', 11.4, 90]
+    input_arr = [64.5, 34, 25, 12.8, 'm', 'h', 11.4, 90]
     for value in input_arr:
         result = Lab3.bubble_sort(input_arr, isinstance(value,int))
         assert (result == 2)
